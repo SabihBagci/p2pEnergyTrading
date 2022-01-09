@@ -318,7 +318,7 @@ namespace p2pEnergyTrading
             dgvTrades.Rows.Add(new string[] { seller.Name,order.Power.ToString(),order.Cost.ToString(),DateTime.Now.ToString()});
             order = null;
             InitializeDataGridView();
-            
+            MessageBox.Show("The bank account has been checked. Trade is done. The purchase has been confirmed. Energy Vendor&Energy Consumer contact information was sent to the mobile phones of individuals & institutions as SMS.");
             picBox4badge.Visible = true;
             lblFirstTrade.Visible = true;
 
